@@ -20,10 +20,10 @@ export function Status(){
     </form>
 
     <Separator />
-
-    {/*tweets.map(tweet =>{
+{/* 
+    {tweets.map(tweet =>{
      return <Tweet key={tweet} content={tweet}/>
-    })*/}
+    })} */}
 
   </main>
   )
