@@ -1,14 +1,24 @@
 import { createBrowserRouter } from "react-router-dom";
+import { Default } from "./layouts/Default";
+import { Status } from "./pages/Status";
 import { Timeline } from "./pages/Timeline";
 
 export const route = createBrowserRouter([
-  {
-    path:'/',
-    element: <Timeline/>
-  },
+
 
   {
-    path: "/tweet",
-    element: <h1>Tweet</h1>
+    path: '/',
+    element: <Default/>,
+    children: [
+      {
+        path:'/',
+        element: <Timeline/>
+      },
+    
+      {
+        path: "/status",
+        element:<Status/>
+      },
+    ]
   }
 ])

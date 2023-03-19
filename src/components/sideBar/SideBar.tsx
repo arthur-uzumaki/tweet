@@ -1,4 +1,5 @@
 import { Bell, BookmarkSimple, DotsThreeCircle, Envelope, FileText, Hash, House, User } from 'phosphor-react'
+import { NavLink } from 'react-router-dom'
 
 import logoTwitter from '../../assets/logo-twitter.svg'
 import './SideBar.css'
@@ -11,10 +12,10 @@ export function SideBar(){
     <img className='logo' src={logoTwitter} alt="logo" />
 
     <nav className='main-navigation'>
-      <a className='active' href="">
+      <NavLink  to="/">
         <House weight='fill' />
         home
-      </a>
+      </NavLink>
       <a href="">
         <Hash />
         Explore
