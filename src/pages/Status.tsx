@@ -1,4 +1,5 @@
 
+import { PaperPlaneRight } from 'phosphor-react'
 import { FormEvent, KeyboardEvent, useState } from 'react'
 import { Header } from '../components/header/Header'
 import { Separator } from '../components/separator/Separator'
@@ -67,7 +68,7 @@ export function Status() {
             placeholder="Tweet your answer? " />
         </label>
 
-        <button type='submit'> Answer</button>
+        <button type='submit'> <PaperPlaneRight/> <span>Answer</span></button>
       </form>
 
 

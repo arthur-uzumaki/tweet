@@ -9,7 +9,8 @@
 }
 
 body {
-  color: #0f1419;
+  background-color: #121214;
+  color: #E1E1E6;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -30,20 +31,6 @@ a {
 /* Page: Timeline*/
 
 
-.layout{
-
-  margin: 0 auto;
-  max-width: 1000px;
-
-  display: grid;
-  grid-template-columns: 300px 1fr;
-}
-
-
-.content{
-  border-left:1px solid #edeef0;
-  border-right: 1px solid #ededed;
-}
 
 
 
